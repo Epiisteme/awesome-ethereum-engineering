@@ -3,6 +3,7 @@ Awesome Archive of Ethereum Engineering
 
 ## Smart Contract Testing
 - https://www.sitepoint.com/truffle-testing-smart-contracts/
+- https://docs.openzeppelin.com/learn/writing-automated-tests#setting-up-a-testing-environment
 
 ## Smart Contract Upgradeability 
 - https://www.npmjs.com/package/@openzeppelin/upgrades
