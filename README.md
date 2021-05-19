@@ -1,6 +1,9 @@
 # awesome-ethereum-engineering
 Awesome Archive of Ethereum Engineering
 
+## Original Whitepaper
+- https://docs.ethhub.io/ethereum-basics/history-and-forks/
+
 ## Smart Contract Testing
 - https://www.sitepoint.com/truffle-testing-smart-contracts/
 - https://github.com/OpenZeppelin/openzeppelin-test-environment
