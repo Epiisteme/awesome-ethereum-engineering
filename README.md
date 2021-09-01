@@ -1,6 +1,9 @@
 # awesome-ethereum-engineering
 Awesome Archive of Ethereum Engineering Ecosystem
 
+## Ethereum Programming Basics
+- https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4
+
 ## Ethereum Virtual Machine Internals
 - https://github.com/crytic/evm-opcodes
 
