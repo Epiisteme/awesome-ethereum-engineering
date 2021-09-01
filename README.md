@@ -1,5 +1,8 @@
 # awesome-ethereum-engineering
-Awesome Archive of Ethereum Engineering
+Awesome Archive of Ethereum Engineering Ecosystem
+
+## Ethereum Virtual Machine Internals
+- https://github.com/crytic/evm-opcodes
 
 ## History of Forks
 - https://docs.ethhub.io/ethereum-basics/history-and-forks/
