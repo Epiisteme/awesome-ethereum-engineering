@@ -11,6 +11,9 @@ Awesome Archive About Ethereum Engineering Ecosystem
 - https://blog.iden3.io/merkle-trees-visual-introduction.html
 - https://efficient-merkle-trees.netlify.app/
 
+## Ethereum Design Patterns
+- https://fravoll.github.io/solidity-patterns/
+
 ## Ethereum Programming Basics
 - https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4
 - https://github.com/gabrielrezzonico/solidity-examples
