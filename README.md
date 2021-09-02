@@ -3,6 +3,7 @@ Awesome Archive of Ethereum Engineering Ecosystem
 
 ## Ethereum Programming Basics
 - https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4
+- https://github.com/gabrielrezzonico/solidity-examples
 
 ## Ethereum Virtual Machine Internals
 - https://github.com/crytic/evm-opcodes
