@@ -6,6 +6,12 @@ Awesome Archive About Ethereum Engineering Ecosystem
 - https://www.nielit.gov.in/sites/default/files/Aurangabad/Blockchain-Module1.pdf
 - https://scet.berkeley.edu/wp-content/uploads/BlockchainPaper.pdf
 
+## Ethereum Datastructure Visualisation
+- https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd
+- https://blog.iden3.io/merkle-trees-visual-introduction.html
+- https://efficient-merkle-trees.netlify.app/
+
+
 ## Ethereum Programming Basics
 - https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4
 - https://github.com/gabrielrezzonico/solidity-examples
