@@ -36,3 +36,6 @@ Awesome Archive About Ethereum Engineering Ecosystem
 
 ## Smart Contract Upgradeability 
 - https://www.npmjs.com/package/@openzeppelin/upgrades
+
+## Smart Contract Log Management
+- https://consensys.net/blog/developers/guide-to-events-and-logs-in-ethereum-smart-contracts/
