@@ -39,3 +39,6 @@ Awesome Archive About Ethereum Engineering Ecosystem
 
 ## Smart Contract Log Management
 - https://consensys.net/blog/developers/guide-to-events-and-logs-in-ethereum-smart-contracts/
+
+## Prometheus for Ethereum Transaction Analysis
+- https://github.com/31z4/ethereum-prometheus-exporter
