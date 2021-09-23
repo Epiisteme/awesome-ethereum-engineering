@@ -23,10 +23,17 @@ Awesome Archive About Ethereum Engineering Ecosystem
 - https://github.com/OpenZeppelin/openzeppelin-contracts
 - https://developers.rsk.co/tutorials/ethereum-devs/setup-truffle-oz/
 
+## Ethereum Audit Assets
+- https://github.com/chainsulting/Smart-Contract-Security-Audits
+- https://github.com/cryptofinlabs/audit-checklist
+
+## Ethereum Data Structures
+- https://medium.com/cryptologic/memory-and-storage-in-solidity-4052c788ca86
+
 ## Ethereum Virtual Machine Internals
 - https://github.com/crytic/evm-opcodes
 
-## History of Forks
+## Ethereum Forks
 - https://docs.ethhub.io/ethereum-basics/history-and-forks/
 
 ## Smart Contract Testing
