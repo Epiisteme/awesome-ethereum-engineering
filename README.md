@@ -1,11 +1,6 @@
 # awesome-ethereum-engineering
 Awesome Archive About Ethereum Engineering Ecosystem
 
-## Fundamentals of Blockchain
-- https://www.buffalo.edu/content/dam/www/ubblockchain/files/basics/001%20What%20is%20Blockchain.pdf
-- https://www.nielit.gov.in/sites/default/files/Aurangabad/Blockchain-Module1.pdf
-- https://scet.berkeley.edu/wp-content/uploads/BlockchainPaper.pdf
-
 ## Ethereum Datastructure Visualisation
 - https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd
 - https://blog.iden3.io/merkle-trees-visual-introduction.html
