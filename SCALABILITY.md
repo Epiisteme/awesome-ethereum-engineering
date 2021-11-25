@@ -9,14 +9,29 @@
 - Users need to sign a signature before making a transaction, 
 - Users need to wait to see the transaction included in a valid block, and then sign another signature. 
 - These second signatures must also be included within a plasma block, reducing block space available for more transactions
+- Transactions are batched into single submission on the ETH chain.
+- Offering finality and security for payments upto 65,000 UTXO L2 transactions
 
 ### More Viable Plasma
 - Removed the need for confirmation signatures
+- Considered secure as it is a child chain approach
 
 ## Sidechains
+- Some of the plasma implementations are considered side chain approaches while others are considered as child chains
+- Side chains are attached to Ethereum using one or two way transfer of assets
+- Each side chain is self contained
+- It is required to transfer the custody of tokens from parent chains to side chains
 
 ## Rollups
 
 ### zkRollups
 
 ### Optimistic Rollups
+
+### New Approach
+- Oracles for data ingestion
+- Streams for data linking
+- Rollups for data compression
+- Plasma for data aggregation
+- Pragma for data verification
+- Prism for data expiry
