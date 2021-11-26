@@ -1,5 +1,9 @@
 ## Base Layer
-- Focused on scaling how much data blocks can hold, & not efficiency of on-chain computation or IO operations. 
+- Based on scaling how much data blocks can hold
+- Not based on efficiency of on-chain computation or IO operations. 
+- EIP 2929 to ensure that the chain is safe against DoS attacks at current gas levels
+- EIP 1559 for ETH burn and to make it easy to send transactions
+- New elliptic curve precompiles, quite significant for zkRollups
 
 ## Plasma
 
