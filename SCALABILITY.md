@@ -29,10 +29,20 @@
 - It is required to transfer the custody of tokens from parent chains to side chains
 
 ## Rollups
+- In rollup, calls to the contract and their arguments are written on-chain as calldata, 
+- However the actual computation and storage of the contract are done off-chain.
+- Since contract execution and storage are moved off-chain, on-chain gas costs are drastically reduced.
+- There are three basic approaches: 
+- noninteractive rollup (like ZK-Rollup), 
+- one-round interactive rollup (like the “optimistic rollup” proposal)
+- multi-round interactive rollup (like our Arbitrum Rollup).
 
 ### zkRollups
 
 ### Optimistic Rollups
+
+### Arbitrum
+- Arbitrum has full smart contract support and ships with a Solidity compiler
 
 ## Channels
 
