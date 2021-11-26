@@ -1,3 +1,5 @@
+## Context
+- Ethereum base-layer scaling would primarily be focused on scaling how much data blocks can hold, and not efficiency of on-chain computation or IO operations. 
 
 ## Plasma
 
@@ -28,9 +30,12 @@
 
 ### Optimistic Rollups
 
+## Channels
+
 ### New Approach
 - Oracles for data ingestion
 - distributed hash table for data linking
 - zkRollups for data compression
 - Optimistic Rollups for data verification
 - Plasma for data verification
+- ETH2 as data availability layer
