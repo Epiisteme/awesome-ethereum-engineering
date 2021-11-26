@@ -1,5 +1,5 @@
 ## Context
-- Base-layer scaling would be focused on scaling how much data blocks can hold, and not efficiency of on-chain computation or IO operations. 
+- Base-layer scaling would be focused on scaling how much data blocks can hold, & not efficiency of on-chain computation or IO operations. 
 
 ## Plasma
 
