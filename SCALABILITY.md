@@ -34,8 +34,8 @@
 - Since contract execution and storage are moved off-chain, on-chain gas costs are drastically reduced.
 - There are three basic approaches: 
 - noninteractive rollup (like ZK-Rollup), 
-- one-round interactive rollup (like the “optimistic rollup” proposal)
-- multi-round interactive rollup (like our Arbitrum Rollup).
+- one-round interactive rollup (like the “Optimistic rollup” proposal)
+- multi-round interactive rollup (like Arbitrum Rollup).
 
 ### zkRollups
 
