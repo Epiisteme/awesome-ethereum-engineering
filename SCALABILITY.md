@@ -1,5 +1,5 @@
 ## Context
-- Ethereum base-layer scaling would primarily be focused on scaling how much data blocks can hold, and not efficiency of on-chain computation or IO operations. 
+- Ethereum base-layer scaling would be focused on scaling how much data blocks can hold, and not efficiency of on-chain computation or IO operations. 
 
 ## Plasma
 
