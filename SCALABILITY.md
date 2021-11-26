@@ -30,8 +30,7 @@
 
 ### New Approach
 - Oracles for data ingestion
-- Streams for data linking
-- Rollups for data compression
-- Plasma for data aggregation
-- Pragma for data verification
-- Prism for data expiry
+- distributed hash table for data linking
+- zkRollups for data compression
+- Optimistic Rollups for data verification
+- Plasma for data verification
