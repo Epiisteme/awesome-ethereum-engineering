@@ -38,8 +38,20 @@
 - multi-round interactive rollup (like Arbitrum Rollup).
 
 ### zkRollups
+- Noninteractive rollup relies on succinct validity proofs. 
+- Every assertion is accompanied by an efficiently checkable proof (like a SNARK) 
+- This is great for the miners and other observers, 
+- The proofs are cheap to check and they establish correctness of the assertion immediately.
+- Creating the proofs is incredibly expensive, unless the transactions being asserted are very simple. 
+- Thus ZK-Rollup is a great approach for payment transactions
+
+## Rollups for Smart Contracts
+- When the assertion is posted on-chain, the asserter posts a bond, and there is a time window in which validators can challenge the assertion 
+- if they think it’s wrong. this is sometimes called a “fraud proof”. If the asserter is wrong, they will lose their bond.
 
 ### Optimistic Rollups
+- In one-round interactive rollup — sometimes called “optimistic rollup” the assertion includes a result for each call 
+- The challenger points to a specific call which has the wrong result in the assertion.
 
 ### Arbitrum
 - Arbitrum has full smart contract support and ships with a Solidity compiler
