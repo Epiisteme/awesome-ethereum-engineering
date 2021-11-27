@@ -4,9 +4,14 @@
 - If the data is not available, the block might contain malicious transactions which are being hidden by the block producer. 
 - Even if the block contains non-malicious transactions, hiding them might compromise the security of the system.
 
-## Data Availability and zkRollups
+### Data Availability and zkRollups
 - user submits a ZK-Proof on Ethereum which is verified. 
 - If user does not submit all the transactional data on Ethereum, 
 - The proof ensures that all state transitions taken in the rollup are valid
 - Still users of the rollup might be in the dark about their current account balances. 
 - The submitted proof sheds no light on the current states because of the Zero-Knowledge nature of it.
+
+### Data Availabilty and Optimistic Rollups
+- Alice submits an assertion on Ethereum 
+- None of the participants of the Rollup can challenge it because the transactional data is not available 
+- Hhence they are unable to recalculate or challenge the assertion.
