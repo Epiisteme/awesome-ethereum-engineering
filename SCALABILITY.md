@@ -60,6 +60,9 @@
 - The on-chain smart contract acts as a referee for the protocol.
 - In the end the referee determines that one party made a false claim, and punishes that party by taking their bond.
 
+### Review on Optimisitc Rollups
+- The choice between one-round and multi-round rollup boils down to a tradeoff between on-chain cost and time to resolve a dispute.
+
 ## Channels
 
 ## New Approach
