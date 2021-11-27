@@ -45,15 +45,13 @@
 - Creating the proofs is incredibly expensive, unless the transactions being asserted are very simple. 
 - Thus ZK-Rollup is a great approach for payment transactions
 
-## Rollups for Smart Contracts
+### Optimistic Rollups
 - When the assertion is posted on-chain, the asserter posts a bond, and there is a time window in which validators can challenge the assertion 
 - if they think it’s wrong. this is sometimes called a “fraud proof”. If the asserter is wrong, they will lose their bond.
+- An on-chain contract emulates that one challenged call and checks whether the asserter’s claim about that call was wrong. 
+- If the challenge period expires with no successful challenges, the assertion is accepted and becomes final.
 
-### Optimistic Rollups
-- In one-round interactive rollup — sometimes called “optimistic rollup” the assertion includes a result for each call 
-- The challenger points to a specific call which has the wrong result in the assertion.
-
-### Arbitrum
+### Arbitrum Rollups
 - Arbitrum has full smart contract support and ships with a Solidity compiler
 - In multi-round interactive rollup, like  Arbitrum Rollup, there is a challenge window 
 - In this window, a challenger can post a bond and claim that the assertion was wrong. 
@@ -62,7 +60,7 @@
 
 ## Channels
 
-### New Approach
+## New Approach
 - Oracles for data ingestion
 - distributed hash table for data linking
 - zkRollups for data compression
