@@ -1,3 +1,9 @@
+## References 
+- https://docs.polygon.technology/docs/home/architecture/polygon-architecture/
+- https://medium.com/offchainlabs/whats-up-with-rollup-db8cd93b314e
+- https://medium.com/omgpool/plasma-vs-optimistic-rollups-9808c2f64975
+- https://vitalik.ca/general/2021/01/05/rollup.html
+
 ## Base Layer
 - Based on scaling how much data blocks can hold
 - Not based on efficiency of on-chain computation or IO operations. 
