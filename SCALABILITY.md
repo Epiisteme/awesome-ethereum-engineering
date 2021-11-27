@@ -55,6 +55,10 @@
 
 ### Arbitrum
 - Arbitrum has full smart contract support and ships with a Solidity compiler
+- In multi-round interactive rollup, like  Arbitrum Rollup, there is a challenge window 
+- In this window, a challenger can post a bond and claim that the assertion was wrong. 
+- What follows is a back-and-forth interactive protocol between the asserter and the challenger,
+- The on-chain smart contract acts as a referee for the protocol.
 
 ## Channels
 
