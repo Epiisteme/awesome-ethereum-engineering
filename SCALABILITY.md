@@ -1,15 +1,9 @@
 ## References 
+- https://blog.polygon.technology/the-data-availability-problem-6b74b619ffcc/
 - https://docs.polygon.technology/docs/home/architecture/polygon-architecture/
 - https://medium.com/offchainlabs/whats-up-with-rollup-db8cd93b314e
 - https://medium.com/omgpool/plasma-vs-optimistic-rollups-9808c2f64975
 - https://vitalik.ca/general/2021/01/05/rollup.html
-
-## Base Layer
-- Based on scaling how much data blocks can hold
-- Not based on efficiency of on-chain computation or IO operations. 
-- EIP 2929 to ensure that the chain is safe against DoS attacks at current gas levels
-- EIP 1559 for ETH burn and to make it easy to send transactions
-- New elliptic curve precompiles, quite significant for zkRollups
 
 ## Plasma
 
