@@ -46,7 +46,8 @@
 - Thus ZK-Rollup is a great approach for payment transactions
 
 ### Optimistic Rollups
-- When the assertion is posted on-chain, the asserter posts a bond, and there is a time window in which validators can challenge the assertion 
+- When the assertion is posted on-chain, the asserter posts a bond 
+- There is a time window in which validators can challenge the assertion 
 - if they think it’s wrong. this is sometimes called a “fraud proof”. If the asserter is wrong, they will lose their bond.
 - An on-chain contract emulates that one challenged call and checks whether the asserter’s claim about that call was wrong. 
 - If the challenge period expires with no successful challenges, the assertion is accepted and becomes final.
@@ -57,6 +58,7 @@
 - In this window, a challenger can post a bond and claim that the assertion was wrong. 
 - What follows is a back-and-forth interactive protocol between the asserter and the challenger,
 - The on-chain smart contract acts as a referee for the protocol.
+- In the end the referee determines that one party made a false claim, and punishes that party by taking their bond.
 
 ## Channels
 
