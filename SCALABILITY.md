@@ -6,6 +6,16 @@
 - https://vitalik.ca/general/2021/01/05/rollup.html
 
 ## Plasma
+- Plasma uses a combination of smart contracts and cryptographic verification. 
+- Together, these enable fast and cheap transactions by offloading these transactions into a "side" chain 
+- There side chains are sometimes referred as child or plasma chains. 
+- These side chains periodically report back to the main chain and use it to settle any disputes
+
+## Sidechains
+- Some of the plasma implementations are considered side chain approaches while others are considered as child chains
+- Side chains are attached to Ethereum using one or two way transfer of assets
+- Each side chain is self contained
+- It is required to transfer the custody of tokens from parent chains to side chains
 
 ### Minimum Viable Plasma
 - Minimum Viable Plasma (MVP) is a design for extremely simple UTXO based chains
@@ -43,12 +53,6 @@
 - Bor Creates a merkle tree of the block hashes
 - Bor Publishes the merkle root to the main chain
 - Incentivised validators are running Heimdall and Bor nodes
-
-## Sidechains
-- Some of the plasma implementations are considered side chain approaches while others are considered as child chains
-- Side chains are attached to Ethereum using one or two way transfer of assets
-- Each side chain is self contained
-- It is required to transfer the custody of tokens from parent chains to side chains
 
 ## Rollups
 - In rollup, calls to the contract and their arguments are written on-chain as calldata, 
