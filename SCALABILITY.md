@@ -22,6 +22,27 @@
 - Removed the need for confirmation signatures
 - Considered secure as it is a child chain approach
 
+### Polygon 
+- Polygon is an adaptatio of minimum viable plasma
+- Developers can use Plasma in Polygon for specific state transitions written on Plasma predicates
+- Plasma predicates can be written for tokens like ERC 20, ERC 721, asset wraps and custom predicates
+- Polygon has a generic validation Layer coupled with execution environments
+- Polygon has a three tier architecture consisting of :
+- Staking and Plasma Smart Contracts on Ethereum
+- Heimdall Proof of Stake Layer
+- Bor Block Producer Layer
+- Polygon has Fraud Proofs and Exit Queues in the Root Chain
+- Heimdall is the PoS validator node that works in consonance with the Staking contracts on Ethereum to enable the PoS mechanism on Polygon. 
+- It is implemented by building on top of the Tendermint consensus engine with changes to the signature scheme and various data structures. 
+- It is responsible for block validation, block producer committee selection, checkpointing a representation of the sidechain blocks to Ethereum.
+- Heimdall layer handles the aggregation of blocks produced by Bor into a merkle tree and publishing the merkle root periodically to the root chain. 
+- This periodic publishing are called checkpoints.
+- For every few blocks on Bor, a validator (on the Heimdall layer):
+- Bor Validates all the blocks since the last checkpoint
+- Bor Creates a merkle tree of the block hashes
+- Bor Publishes the merkle root to the main chain
+- Incentivised validators are running Heimdall and Bor nodes
+
 ## Sidechains
 - Some of the plasma implementations are considered side chain approaches while others are considered as child chains
 - Side chains are attached to Ethereum using one or two way transfer of assets
