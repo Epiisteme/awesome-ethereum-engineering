@@ -10,6 +10,9 @@
 - Together, these enable fast and cheap transactions by offloading these transactions into a "side" chain 
 - There side chains are sometimes referred as child or plasma chains. 
 - These side chains periodically report back to the main chain and use it to settle any disputes
+- Plasma provides a way to conduct transactions off-chain at a much higher and cheaper rate. 
+- Plasma has the fraud proof verification mechanism with periodic snapshots/checkpoints of the sidechain state on Ethereum, 
+- This enable optimistic execution of transactions on the sidechain made possible.
 
 ## Sidechains
 - Some of the plasma implementations are considered side chain approaches while others are considered as child chains
