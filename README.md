@@ -3,6 +3,7 @@ Awesome Archive About Ethereum Engineering Ecosystem
 
 ## Ethereum Wallets
 - https://www.wispwisp.com/index.php/2020/12/25/how-metamask-stores-your-wallet-secret/
+- https://www.bitdegree.org/crypto/metamask-wallet-review
 
 ## Ethereum Datastructure Visualisation
 - https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd
