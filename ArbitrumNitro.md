@@ -1,0 +1,4 @@
+- Advanced Calldata Compression
+- Separate execution of Common transactions and fault proofs
+- Sequencing of transactions, batch and compress and commit to L1
+- Sequencing of transactions, generation of state transition function, L2 block production, L1 settlement
