@@ -15,3 +15,6 @@
 - ZK Systems scale computation, not communication
 - Sequencer puts call data storage into data layer
 - Sequencer puts Validity / Fault Proofs into Settlement layer
+
+## Capital Cost
+- Capital cost dominates all the other cost in proof of stake systems
