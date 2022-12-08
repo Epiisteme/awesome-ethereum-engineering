@@ -11,5 +11,7 @@
 - PoW to PoS > Monolithic chain to Modular chain
 - Modular chain consisting of separate beacon layer and execution layer
 
-## Limitations of ZK Systems
+## Nature of Rollup Systems
 - ZK Systems scale computation, not communication
+- Sequencer puts call data storage into data layer
+- Sequencer puts Validity / Fault Proofs into Settlement layer
