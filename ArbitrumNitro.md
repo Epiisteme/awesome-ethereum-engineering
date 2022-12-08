@@ -8,3 +8,5 @@
 - Nitro environment consists of Node functions, ArbOS and Geth core in a geth sandwitch architecture
 - ArbOS decompresses and parses sequencer data batches
 - ArbOS supports cross chain bridge functionalities
+- State Transition Function takes transaction bytes as inputs and has access to a modifiable copy of state tree
+- State Transition Function execution modifies the state and emit the header of the new block which will be appended to the Nitro chain
