@@ -21,3 +21,5 @@
 
 ## Economics of Middleware
 - Oracles, Bridges, Sidechains etc.
+- Merge Mining v/s Restaking
+
