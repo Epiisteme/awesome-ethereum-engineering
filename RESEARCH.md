@@ -18,3 +18,6 @@
 
 ## Capital Cost
 - Capital cost dominates all the other cost in proof of stake systems
+
+## Economics of Middleware
+- Oracles, Bridges, Sidechains etc.
