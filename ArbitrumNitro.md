@@ -5,3 +5,4 @@
 - Combination of sequencer and state transition function keeps the fees low by rejecting invalid transactions
 - Nodes get the sequences through real time feed and batches posted on L1
 - Sequencer batches are compressed through an algorithm known as brotli
+- Nitro environment consists of Node functions, ArbOS and Geth core
